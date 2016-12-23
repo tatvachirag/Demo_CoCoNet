@@ -19,7 +19,7 @@ public class HomeController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String dashboardLoader(){
-		logger.info("Main Page Loading");
+		logger.info("Main Page Loading 1");
 		return "index";
 	}
 }
